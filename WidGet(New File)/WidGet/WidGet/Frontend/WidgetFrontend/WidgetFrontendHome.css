@@ -1,0 +1,176 @@
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar ul li {
+    margin: 0 7px;
+}
+.btn{
+    color: white;
+    background-color: red;
+    border-radius: 7px;
+    border: none;
+    padding: 9px;
+    margin: 19px;
+}
+.title{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltbgpEYhw-ZJQuYPPKOQLy4al0pbDsdpLMTO4kd9QQWdboexsnMUqwJXB5o-PCLwi3Kk&usqp=CAU') no-repeat center center/cover;
+    margin-top: -35px;
+    height: 70vh;
+}
+.title h1{
+    padding-top: 10%;
+    padding-left: 25%;
+    font-size: 60px;
+    color: white;
+}
+.second{
+    background-color: #e7d3d3;
+    padding: 20px;
+}
+.second .section{
+    display: flex;
+    width: 30%;
+    background-color: #cc8e8e;
+    margin: 20px;
+    border-radius: 7px;
+    padding: 15px;
+}
+.second .section i {
+    font-size: 40px;
+    padding-top: 15%;
+    padding-right: 20px;
+}
+.second .section h4{
+    font-size: 23px;
+    margin-bottom: -7px;
+}
+.second .section:hover{
+    background-color: rgb(241, 91, 91);
+    color: white;
+}
+.third{
+    display: flex;
+    margin: 35px 0;
+    padding: 30px;
+    background-color: antiquewhite;
+}
+.third img{
+    border-radius: 50%;
+    margin: 20px;
+}
+.third .subthird{
+    padding: 20px;
+}
+.third .thirdsection{
+    background-color: white;
+    margin: 10px;
+    padding: 0px 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px gray;
+}
+.third .thirdsection i{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgb(239, 133, 133);
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 7px;
+}
+.third .thirdsection h4{
+    color:rgb(241, 91, 91) ;
+    padding-left: 10px;
+    margin-bottom: -10px;
+}
+.third .thirdsection p{
+    padding-left: 10px;
+}
+.forth{
+    background-color: #d3a3a3;
+}
+.forth h1{
+padding-left: 40%;
+}
+.forth .section{
+    width: 30%;
+    background-color :#e0c7c7;
+    margin: 20px;
+    border-radius: 7px;
+}
+.forth .section i {
+    color: red;
+    font-size: 30px;
+    padding: 20px;
+}
+.forth .section h4,p{
+    padding: 20px;
+    margin-top: -10px;
+}
+.forth-fist{
+    display: flex;
+    background-color: red;
+    color: white;
+    margin: 25px;
+    border-radius: 7px;
+}
+.forth-fist .forth-fistub{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height:300px;
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+}
+.forth-fist .forth-fistfirst{
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.forth-fist .forth-fistfirst h3{
+    font-size: 30px;
+}
+.forth-second .forth-icons{
+    display: flex;
+    margin-left: 25%;
+}
+.forth-second h2{
+    padding-left: 40%;
+}
+.forth-second p{
+    padding-left: 17%;
+}
+.forth-second .forth-icons i{
+    font-size: 50px;
+    margin: 40px;
+}
+footer{
+    background-color: hsl(240, 93%, 12%);
+    color: white;
+}
+footer h3{
+    padding: 20px;
+    margin-left: 40%;
+    font-size: 25px;
+}
+footer i{
+    margin-left: 20%;
+    font-size: 30px;
+    color: red;
+}
+footer .footer-icons{
+    margin-left: 40%;
+}
+footer .footer-icons i{
+    color: white;
+    margin: 20px;
+    
+}

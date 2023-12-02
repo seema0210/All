@@ -1,0 +1,15 @@
+.form{
+    width: 40%;
+    height: 30%;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: rgb(226, 222, 222);
+}
+form{
+    padding: 30px;
+}
+form input {
+    padding: 6px;
+    margin: 9px;
+}

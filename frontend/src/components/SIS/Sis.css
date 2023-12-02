@@ -1,0 +1,74 @@
+ul li i, ul li span{
+    color: white;
+    padding: 3px;
+}
+ ul li .dash{
+    text-decoration: none;    
+}
+.container .dash{
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+.container .dash:hover{
+    background-color: gray;
+    border-radius: 7px; 
+}
+.container ul li:hover{
+    background-color: gray;
+    border-radius: 7px;
+}
+.table{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.table Table{
+    width: 60%;
+    margin: 3% auto;
+}
+.int input{
+    width: 57%;
+    margin: 2% 0 0 2%;
+}
+.int i {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
+.int Button{
+    margin: 0.4% 0 0 17%;
+}
+.heading h1{
+    color: gray;
+    margin: 3% 0 0 38%;
+}
+.newData{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+    background: rgba(0, 0, 0,0.75);
+}
+.nData{
+    width: 60%;
+    height: 40%;
+    position: fixed;
+    top: 10rem;
+    left: 20rem;
+    z-index: 20;
+    background: white;
+}
+.nData form{
+    padding: 40px;
+    width: 80%;
+}
+.nData form input {
+    padding: 5px;
+    margin: 2px 10px;
+    width: 60%;
+}
+.nData h3{
+    margin-left:40% ;
+}

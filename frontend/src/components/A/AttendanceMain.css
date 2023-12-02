@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav css */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 209, 209);
+    box-shadow: 2px 2px 5px gray;
+    height: 70px;
+}
+.nav h1{
+    font-size: 20px;
+    color:rgb(54, 6, 66);
+}
+.nav h1 i {
+    font-size: 60px;
+    padding-left: 10px;
+    color: rgb(54, 6, 66);
+    text-shadow: 2px 2px 5px gray;
+}
+.nav .search{
+    margin: 1px 15px;
+}
+.search input{
+    padding: 5px;
+}
+ .nav .search i {
+    background-color: rgb(54, 6, 66);
+    color: white;
+    padding: 3px;
+    margin-top: 10px;
+}
+/* form css */
+.form {
+    width: 85%;
+    margin: 30px auto;
+    background-color: rgb(211, 209, 209);
+    box-shadow: 2px 2px 5px gray;
+    z-index: -1;
+}
+.form h2{
+    margin-left: 36.6%;
+}
+.form .first{
+    margin: 25px 30px;
+}
+.form .first label{
+    margin-left: 20px;
+}
+.form .section{
+    display: flex;
+    height: 120px;
+}
+.form input{
+    padding: 5px;
+}
+.form button{
+    padding: 5px;
+    background-color: rgb(54, 6, 66);
+    color: white;
+}
+.form .btn{
+    width: 5rem;
+    margin: 50px 25px;
+    margin-left: 39%;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.first span .menu{
+    width: 100px;
+    z-index: 100;
+}
+.main-menu ul{
+    background-color:white ;
+    width: 100px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: 51%;
+    margin-top: -1px;
+}
+.main-menu ul li{
+    list-style: none;
+    padding: 8px;
+}
+.main-menu ul li:hover{
+    color:  red;
+    cursor: pointer;
+}
+/* table */
+.table {
+    width: 85%;
+    margin: auto;
+    background-color: rgb(211, 209, 209);
+    box-shadow: 2px 2px 5px gray;
+}
+.table table{
+    width: 100%;
+    padding: 10px 10px;
+}
+.table table thead th,tbody td{
+    padding: 10px 10px;
+}
